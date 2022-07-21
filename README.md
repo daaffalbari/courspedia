@@ -12,6 +12,7 @@
 4. XAMPP (A web server by Apache Friends)
 5. Php
 6. MySQL (An RDBMS that uses SQL)
+7. Git and Github 
 
 ## Steps to run the project in your machine
 1. Download and install XAMPP in your machine
@@ -23,3 +24,8 @@
 7. Import the file 'courspedia.sql' inside your newly created database and click ok.
 8. Open a new tab and type 'localhost/foldername' in the url of your browser
 9. Hurray! That's it!
+
+## How to Clone
+- Buka Terminal / CMD
+- Clone project <code>git clone https://github.com/daaffalbari/courspedia.git</code>
+- cd courspedia
