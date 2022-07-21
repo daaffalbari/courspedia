@@ -1,4 +1,4 @@
-# courspedia management system using php 
+# COURSPEDIA MANAGEMENT SYSTEM
 
 ## Prerequisites
 1. Install XAMPP web server
