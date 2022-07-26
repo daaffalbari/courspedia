@@ -15,7 +15,19 @@ include_once("functions.php");
   <?php nav(); ?>
   <div class="container">
     <div class="row ">
+      <div class="col-7">
+        <div class="text-center">
+          <img src="./assets/computer.png" alt="gambar_komputer" width="250">
+          <h1 class="">Situs Belajar No.1 di Dunia!!!</h1>
+          <h4 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nisi? Tempore odit ducimus molestiae. Odio at eum perspiciatis sit quod!</h4>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Xxq2siSx8C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-5">
+        <form action="register.php" name="daftar-akun">
 
+        </form>
+      </div>
     </div>
   </div>
   <?php footer(); ?>

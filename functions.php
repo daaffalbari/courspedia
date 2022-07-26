@@ -7,13 +7,7 @@ function dbConnect(){
 }
 
 function showError($message) {
-  ?>
-      <div class="alert alert-danger alert-dismissible">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        <h5><i class="icon fas fa-ban"></i> Error!</h5>
-        <?php echo $message; ?>
-    </div>
-    <?php
+  echo "<script>alert('$message');</script>";
 }
 
 function nav(){
@@ -21,12 +15,17 @@ function nav(){
   <nav class="navbar">
     <div class="container-fluid">
       <a href="index.php" class="navbar-brand">
-        <img src="./assets/logo-cp-black.png" alt="logo" width="35" height="30" class="d-inline-block align-text-top">
+        <img src="./assets/logo-cp-black.png" alt="logo" width="35" class="d-inline-block align-text-top">
         Coursepedia
       </a>
-      <div class="d-flex justify-content-end">
-      <a href="./view/login/login.php" class="btn btn-primary">Login</a>
-    </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="nav-item">
+        <a href="login.php" class="text-muted nav-link">Login</a>
+      </li>
+      <li class="nav-item">
+        <a href="belajar.php" class="text-muted nav-link">Belajar</a>
+      </li>
+    </ul>
     </div>
   </nav>
   <?php  
